@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,700&family=Open+Sans:wght@300&display=swap');
+
+.font-text {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+.font-title {
+    font-family: 'Josefin Slab', serif;
+    font-size: 3rem;
+}
+
+.bg-nav {
+    background: linear-gradient(to right,#800000,#8B0000,#B22222, #FF0000);
+}
+
+.navbar-brand>img {
+    max-height: 5rem;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.icon-social {
+    font-size : 2rem;
+}
+
+.bg-painel {
+    background: linear-gradient(to right,#800000,#8B0000,#B22222, #FF0000);
+    height: 100vh;
+    
+}
+
+.jumbotron>h1 {
+    margin-top: 40vh !important;
+    font-family: 'Josefin Slab', serif;
+    font-size: 6rem;
+}
+
+.bg-footer {
+    background: linear-gradient(to right,#800000,#8B0000,#B22222, #FF0000);
+}
+
+ /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (max-width: 576px) { 
+    .display-4 {
+        font-size: 2rem !important;
+    }
+ }
+
+ /* Dispositivos médios (tablets com 768px ou mais) */
+@media (max-width: 768px) { 
+    
+ }
+
+ /* Dispositivos large (desktops com 992px ou mais) */
+@media (max-width: 992px) { 
+    
+ }
+
+ /* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (max-width: 1200px) { 
+    
+ }
+
