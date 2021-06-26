@@ -1,13 +1,21 @@
-body {  
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
     overflow: hidden;
 }
 
-bg-jumbotron {
-    background: linear-gradient(to right,#800000,#8B0000,#B22222, #FF0000);
+.bg-jumbotron{
+    background: linear-gradient(180deg, #98ffff 0, #7fffff 12.5%, #69ffff 25%, #5affff 37.5%, #53f2f2 50%, #51d5dd 62.5%, #52bcca 75%, #53a7b8 87.5%, #5496a8 100%);
     height: 100vh;
 }
 
+.mt-n4{
+    margin-top: -1.5rem;
+}
 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lobster', cursive;
+}
  /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
 @media (max-width: 576px) { 
     .display-4 {
