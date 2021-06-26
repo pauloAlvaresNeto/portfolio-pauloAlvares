@@ -8,3 +8,5 @@ Este reposítorio tem como finalidade a apresentação dos recursos do GitHub e 
 07/06 - Envio dos Arquivos iniciais do projeto, foi incluído no projeto os arquivos Bootstrap e JQuery.
 
 07/06 - Configurar nosso repositório para que ele se torne uma GitPage.
+
+14/06 - Iniciarei a criação do meu portfólio digital, para apresentação do meu trabalho.
