@@ -10,3 +10,5 @@ Este reposítorio tem como finalidade a apresentação dos recursos do GitHub e 
 07/06 - Configurar nosso repositório para que ele se torne uma GitPage.
 
 14/06 - Iniciarei a criação do meu portfólio digital, para apresentação do meu trabalho.
+
+14/06 - Criação da index do projeto.
