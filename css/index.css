@@ -18,27 +18,35 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .icon-social>a>i {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
+}
+
+.margin {
+    margin-top: 5rem;
 }
  /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
 @media (max-width: 576px) { 
-    .display-4 {
-        font-size: 2rem !important;
+    .icon-social>a>i {
+        font-size: 1.5rem;
+        color: white;
     }
- }
+    .margin {
+        margin-top: 0;
+    }
+}
 
  /* Dispositivos médios (tablets com 768px ou mais) */
 @media (max-width: 768px) { 
     
- }
+}
 
  /* Dispositivos large (desktops com 992px ou mais) */
 @media (max-width: 992px) { 
-    
+   
  }
 
  /* Dispositivos extra large (desktops grandes com 1200px ou mais) */
 @media (max-width: 1200px) { 
-    
+   
  }
