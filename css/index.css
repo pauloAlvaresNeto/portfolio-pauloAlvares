@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5, h6{
 .margin {
     margin-top: 5rem;
 }
+
+#icon-link { 
+    margin-top: 25% !important;
+}
  /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
 @media (max-width: 576px) { 
     .icon-social>a>i {
@@ -33,6 +37,14 @@ h1, h2, h3, h4, h5, h6{
     }
     .margin {
         margin-top: 0;
+    }
+    body{
+        overflow: auto;
+        height: auto;
+        background-size: cover;
+    }
+    #icon-link {
+        margin-top: 0 !important;
     }
 }
 
@@ -50,3 +62,9 @@ h1, h2, h3, h4, h5, h6{
 @media (max-width: 1200px) { 
    
  }
+
+ @media (max-height: 610px) { 
+    .img-phone {
+        height: 5rem;
+    }
+}
