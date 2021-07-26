@@ -12,3 +12,7 @@ Este reposítorio tem como finalidade a apresentação dos recursos do GitHub e 
 14/06 - Iniciarei a criação do meu portfólio digital, para apresentação do meu trabalho.
 
 14/06 - Criação da index do projeto.
+
+19/07 - Retomada das aulas com uma pequena melhoria no CSS do projeto.
+
+26/07 - Aula sobre construção de janela modal, bem como a criação de uma funcionalidade jQuery para o acionamento do mesmo.
