@@ -4,7 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <title>Meu Portifólio - Paulo Alvares</title>
+        
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="libs/fontawesome/css/all.css">
@@ -31,25 +33,25 @@
 
                 <div id="icon-link" class="row justify-content-center margin">
                     <div class="col-5 col-sm-4 offset-md-1 col-md-2 mt-5 mt-sm-4 mt-md-0 ">
-                        <a>
+                        <a href="about.html">
                             <img class="img-fluid img-phone" src="img/aboutMe.png" alt="Sobre min">
                             <h5 class="text-center text-white">Sobre mim</h5>
                         </a>
                     </div>
                     <div class="col-5 offset-sm-1 col-sm-4 offset-md-1 col-md-2 mt-5 mt-sm-4 mt-md-0">
-                        <a>
+                        <a href="partners.html">
                             <img class="img-fluid img-phone" src="img/partners.png" alt="Parcerias">
                             <h5 class="text-center text-white">Parcerias</h5>
                         </a>
                     </div>
                     <div class="col-5 col-sm-4 offset-md-1 col-md-2 mt-5 mt-sm-4 mt-md-0">
-                        <a>
+                        <a href="jobs.html">
                             <img class="img-fluid img-phone" src="img/job.png" alt="Trabalhos">
                             <h5 class="text-center text-white">Trabalhos</h5>
                         </a>
                     </div>
                     <div class="col-5 offset-sm-1 col-sm-4 offset-md-1 col-md-2 mt-5 mt-sm-4 mt-md-0">
-                        <a>
+                        <a href="contacts.html">
                             <img class="img-fluid img-phone" src="img/contact.png" alt="Contatos">
                             <h5 class="text-center text-white">Contatos</h5>
                         </a>
@@ -76,7 +78,28 @@
             </div>
         </div>
 
+        <!-- Janela Modal -->
+        <div class="modal fade" id="modal-info" role="dialog" aria-labelledby="information" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Título da nossa Modal</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi quidem asperiores ipsa neque tenetur libero facere, corporis et magni pariatur dignissimos obcaecati voluptate consequuntur ipsam provident dolor odio doloribus quaerat.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
         <script src="js/jquery-3.6.0.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script src="js/load-page.js"></script>
     </body>
 </html>
