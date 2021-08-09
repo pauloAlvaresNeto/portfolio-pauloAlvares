@@ -7,6 +7,19 @@ body{
 .bg-jumbotron{
     background: radial-gradient(circle at 50% -20.71%, #d1fff8 0, #befff6 10%, #a7fff4 20%, #8dfff3 30%, #6cfbf2 40%, #3cf2f2 50%, #00e8f3 60%, #00dff5 70%, #00d6f9 80%, #00cefd 90%, #00c6ff 100%);
     height: 100vh;
+    color: white;
+}
+
+.bg-light {
+    background:whitesmoke;
+    height: 100vh;
+    color: black;
+}
+
+.bg-dark {
+   background: black;
+   height: 100vh;
+   color: white;
 }
 
 .mt-n4{
@@ -19,7 +32,7 @@ h1, h2, h3, h4, h5, h6{
 
 .icon-social>a>i {
     font-size: 2rem;
-    color: white;
+    
 }
 
 .margin {

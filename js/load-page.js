@@ -18,7 +18,7 @@ $('a').click(function(e){
       // Se for para abrir a page Sobre Min:
       case 'about': 
           $('.modal-title').append('<strong>Sobre Min</strong>')
-          $('.modal-body').append(`<p>Me chamo Paulo Alvares Neto, nasci em 2005 na cidade de Lins-SP, e cresci e moro em Getulina-SP</p>`)
+          $('.modal-body').append(`<p>Me chamo Paulo Alvares Neto, nasci em 2005 na cidade de Lins-SP, e cresci e moro em Getulina-SP.</p>`)
           $('#modal-info').modal('show')
         break
         
