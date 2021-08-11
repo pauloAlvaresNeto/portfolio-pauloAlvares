@@ -3,7 +3,7 @@ $(document).ready(function(){
 
     $('a').addClass('text-white')
 
-    $('.btn-light').click(function(light){
+    $('.light').click(function(light){
         light.preventDefault()
         //Remover o CSS existente do tem(jumbotron)
         //Seleciono o jumbotron e excluo o CSS existente
@@ -15,7 +15,7 @@ $(document).ready(function(){
         $('a').addClass('text-dark')
     })
 
-    $('.btn-dark').click(function(dark){
+    $('.dark').click(function(dark){
         dark.preventDefault()
         //Remover o CSS existente do tem(jumbotron)
         $('.jumbotron').removeClass('bg-jumbotron')
@@ -26,7 +26,7 @@ $(document).ready(function(){
         $('a').addClass('text-white')
     })
 
-    $('.btn-primary').click(function(danger){
+    $('.primary').click(function(danger){
         danger.preventDefault()
         //Remover o CSS existente do tem(jumbotron)
         //Seleciono o jumbotron e excluo o CSS existente
