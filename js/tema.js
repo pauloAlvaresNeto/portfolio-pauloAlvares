@@ -32,9 +32,10 @@ $(document).ready(function(){
         //Seleciono o jumbotron e excluo o CSS existente
         $('.jumbotron').removeClass('bg-light')
         $('.jumbotron').removeClass('bg-dark')
+        $('a').removeClass('text-dark')
         //Aplicar a classe CSS que eu desejo
         $('.jumbotron').addClass('bg-jumbotron')
-       
+        $('a').addClass('text-white')
 
     })
 })
