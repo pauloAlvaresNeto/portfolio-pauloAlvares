@@ -15,23 +15,10 @@
     <body>
         
         <nav class="navbar navbar-dark bg-nav fixed-top text-left">
-            <button class="navbar-toggler btn btn-dark" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon "></span>
+            <button class="navbar-toggler " data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <i><span class="fas fa-cogs"></span></i>
             </button>
             
-            <div id="my-nav" class="collapse navbar-collapse">
-                <ul class="navbar-nav mr-auto ">
-                    <li class="nav-item">
-                        <h5 class="light mt-2 mouse">LIGHT</h5>
-                    </li>
-                    <li class="nav-item ">
-                        <h5 class="primary mt-2 mouse">ORIGINAL</h5>
-                    </li>
-                    <li class="nav-item">
-                        <h5 class="dark mt-2 mouse">DARK</h5>
-                    </li>
-                </ul>
-            </div>
         </nav>
 
         <div class="jumbotron jumbotron-fluid bg-jumbotron">
@@ -101,7 +88,7 @@
         <!-- Janela Modal -->
         <div class="modal fade" id="modal-info" role="dialog" aria-labelledby="information" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
+              <div class="modal-content p-2 shadow-lg p-3 mb-5 bg-white rounded">
                 <div class="modal-header">
                   <h5 class="modal-title">Título da nossa Modal</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
@@ -109,7 +96,17 @@
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi quidem asperiores ipsa neque tenetur libero facere, corporis et magni pariatur dignissimos obcaecati voluptate consequuntur ipsam provident dolor odio doloribus quaerat.</p>
+                    <ul class="navbar-nav mr-auto ">
+                        <li class="nav-item">
+                            <h5 class="light mt-2 mouse">LIGHT</h5>
+                        </li>
+                        <li class="nav-item ">
+                            <h5 class="primary mt-2 mouse">ORIGINAL</h5>
+                        </li>
+                        <li class="nav-item">
+                            <h5 class="dark mt-2 mouse">DARK</h5>
+                        </li>
+                    </ul>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
