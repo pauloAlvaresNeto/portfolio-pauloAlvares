@@ -45,13 +45,5 @@ $('a').click(function(e){
     }
 
   })
-  $('span').click(function(e){
-    e.preventDefault()
 
-    $('.modal-title').empty() //Limpar
-    
-    $('.modal-title').append('<strong>Temas Da Página</strong>')
-    $('#modal-info').modal('show')
-
-  })
 })

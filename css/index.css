@@ -21,11 +21,21 @@ body{
     height: 100vh;
     color: black;
 }
+.bg-white {
+    background:whitesmoke;
+    
+    color: black;
+}
 
 .bg-dark {
    background: black;
    height: 100vh;
    color: white;
+}
+
+.bg-bold {
+    background: black;
+    color: white;
 }
 
 .mt-n4{
@@ -36,7 +46,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Lobster', cursive;
 }
 
-.icon-social>a>i {
+.icon-social {
     font-size: 2rem;
     
 }
